@@ -1,6 +1,6 @@
 # LoRA reproduction + fairness comparison
 
-From-scratch PyTorch implementation of LoRA (Hu et al., 2021, ICLR 2022),
+From-scratch PyTorch implementation of LoRA (Hu et al., ICLR 2022),
 plus a full fine-tuning baseline, reproducing the paper's accuracy-efficiency
 tradeoff on RoBERTa-base and extending it with a fairness comparison using
 counterfactual data augmentation and CrowS-Pairs.
