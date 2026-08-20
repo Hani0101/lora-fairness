@@ -1,0 +1,98 @@
+{
+  "args": {
+    "method": "full",
+    "task": "mrpc",
+    "model": "roberta-base",
+    "seed": 2,
+    "epochs": 10,
+    "batch_size": 16,
+    "lr": 2e-05,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.06,
+    "max_grad_norm": 1.0,
+    "max_length": 128,
+    "rank": 8,
+    "alpha": 8,
+    "lora_dropout": 0.0,
+    "train_subset": null,
+    "device": "auto",
+    "output_dir": "runs",
+    "log_every": 0,
+    "save_model": false
+  },
+  "task": "mrpc",
+  "params": {
+    "total": 124647170,
+    "trainable": 124647170,
+    "lora_only": 0,
+    "trainable_pct": 100.0
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.5846290437742304,
+      "accuracy": 0.8235294117647058,
+      "f1": 0.8636363636363636
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.374339405979429,
+      "accuracy": 0.8700980392156863,
+      "f1": 0.9051878354203936
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.23379054730158855,
+      "accuracy": 0.8651960784313726,
+      "f1": 0.8979591836734694
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.1645832591732779,
+      "accuracy": 0.8602941176470589,
+      "f1": 0.8914285714285715
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.1009403690388538,
+      "accuracy": 0.8848039215686274,
+      "f1": 0.91651865008881
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.06680380528860785,
+      "accuracy": 0.8700980392156863,
+      "f1": 0.9051878354203936
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.030044077789449543,
+      "accuracy": 0.8848039215686274,
+      "f1": 0.9171075837742504
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.026927080195010694,
+      "accuracy": 0.8774509803921569,
+      "f1": 0.9122807017543859
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.02360047442088769,
+      "accuracy": 0.8897058823529411,
+      "f1": 0.9214659685863874
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.017367133994499424,
+      "accuracy": 0.8897058823529411,
+      "f1": 0.9214659685863874
+    }
+  ],
+  "best": {
+    "epoch": 9,
+    "accuracy": 0.8897058823529411,
+    "f1": 0.9214659685863874
+  },
+  "wall_clock_sec": 582.3
+}

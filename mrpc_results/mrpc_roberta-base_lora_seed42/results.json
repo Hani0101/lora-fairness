@@ -1,0 +1,44 @@
+{
+  "args": {
+    "method": "lora",
+    "task": "mrpc",
+    "model": "roberta-base",
+    "seed": 42,
+    "epochs": 1,
+    "batch_size": 16,
+    "lr": 0.0004,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.06,
+    "max_grad_norm": 1.0,
+    "max_length": 128,
+    "rank": 8,
+    "alpha": 8,
+    "lora_dropout": 0.0,
+    "train_subset": 200,
+    "device": "auto",
+    "output_dir": "runs",
+    "log_every": 5,
+    "save_model": false
+  },
+  "task": "mrpc",
+  "params": {
+    "total": 124942082,
+    "trainable": 887042,
+    "lora_only": 294912,
+    "trainable_pct": 0.71
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.6845371580123901,
+      "accuracy": 0.6838235294117647,
+      "f1": 0.8122270742358079
+    }
+  ],
+  "best": {
+    "epoch": 1,
+    "accuracy": 0.6838235294117647,
+    "f1": 0.8122270742358079
+  },
+  "wall_clock_sec": 4.1
+}
