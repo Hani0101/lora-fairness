@@ -1,0 +1,50 @@
+{
+  "base": {
+    "pct_stereotype": 59.35,
+    "n_pairs": 1508,
+    "n_more_preferred": 895,
+    "by_bias_type": {
+      "race-color": 54.07,
+      "socioeconomic": 61.05,
+      "gender": 54.96,
+      "disability": 66.67,
+      "nationality": 64.15,
+      "sexual-orientation": 60.71,
+      "physical-appearance": 60.32,
+      "religion": 74.29,
+      "age": 66.67
+    }
+  },
+  "lora": {
+    "pct_stereotype": 60.61,
+    "n_pairs": 1508,
+    "n_more_preferred": 914,
+    "by_bias_type": {
+      "race-color": 54.65,
+      "socioeconomic": 61.05,
+      "gender": 56.11,
+      "disability": 66.67,
+      "nationality": 65.41,
+      "sexual-orientation": 69.05,
+      "physical-appearance": 66.67,
+      "religion": 75.24,
+      "age": 65.52
+    }
+  },
+  "full": {
+    "pct_stereotype": 58.95,
+    "n_pairs": 1508,
+    "n_more_preferred": 889,
+    "by_bias_type": {
+      "race-color": 51.74,
+      "socioeconomic": 63.37,
+      "gender": 55.73,
+      "disability": 71.67,
+      "nationality": 62.26,
+      "sexual-orientation": 65.48,
+      "physical-appearance": 60.32,
+      "religion": 70.48,
+      "age": 66.67
+    }
+  }
+}
