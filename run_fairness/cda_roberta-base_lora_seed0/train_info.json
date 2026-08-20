@@ -1,0 +1,27 @@
+{
+  "args": {
+    "method": "lora",
+    "model": "roberta-base",
+    "seed": 0,
+    "epochs": 3,
+    "batch_size": 16,
+    "lr": 0.0004,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.06,
+    "max_length": 128,
+    "rank": 8,
+    "alpha": 8,
+    "n_lines": 30000,
+    "device": "auto",
+    "output_dir": "runs_fairness",
+    "log_every": 50
+  },
+  "params": {
+    "total": 124992345,
+    "trainable": 294912,
+    "lora_only": 294912,
+    "trainable_pct": 0.2359
+  },
+  "wall_clock_sec": 1940.9,
+  "checkpoint_dir": "runs_fairness/cda_roberta-base_lora_seed0"
+}
